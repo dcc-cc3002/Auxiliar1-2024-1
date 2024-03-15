@@ -12,4 +12,7 @@ class HelloWorld {
   def hi(name:String):Unit = {
     println(s"hi ${name}")
   }
+  def my_name_is(name:String):Unit = {
+    println(s"my_name_is ${name}")
+  }
 }
