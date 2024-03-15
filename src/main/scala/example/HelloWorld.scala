@@ -6,4 +6,8 @@ class HelloWorld {
     println("Hello world")
   }
 
+  def bye(name: String): Unit = {
+    println("Bye World")
+  }
+
 }
