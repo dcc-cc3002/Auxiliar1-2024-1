@@ -1,0 +1,5 @@
+package paqueteaux
+
+class prueba {
+
+}
