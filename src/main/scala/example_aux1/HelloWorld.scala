@@ -18,4 +18,7 @@ class HelloWorld {
   def im_quite(name:String):Unit = {
     println(s"the_shy_fellow ${name}")
   }
+  def i_still_dont(name:String):Unit = {
+    println(s"know_hot_to_let_go ${name}")
+  }
 }
