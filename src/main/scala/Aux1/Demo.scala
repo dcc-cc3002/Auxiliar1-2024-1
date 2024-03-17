@@ -4,4 +4,5 @@ object Demo {
   def main(args:Array[String]):Unit = {
     println("Welcome to scala")
   }
+  // comment test
 }
