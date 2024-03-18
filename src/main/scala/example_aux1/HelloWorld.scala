@@ -21,4 +21,7 @@ class HelloWorld {
   def i_still_dont(name:String):Unit = {
     println(s"know_hot_to_let_go ${name}")
   }
+  def sum(name:String):Unit = {
+    println(s"thing ${name}")
+  }
 }
