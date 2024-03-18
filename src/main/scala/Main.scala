@@ -1,5 +1,8 @@
+import example.HelloWorld
+
 object Main {
   def main(args: Array[String]): Unit = {
-    println("Hello world!")
+    val hola = new HelloWorld
+    hola.hello("Sebastian")
   }
 }
