@@ -11,7 +11,7 @@ def Hello_world(): Unit ={
   }
 
 def Bye_world(): Unit ={
-  println("Bye world!")
+  println("Bye world!!")
   }
 
 }
