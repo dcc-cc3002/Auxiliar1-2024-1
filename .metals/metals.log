@@ -1,0 +1,123 @@
+2024.08.19 17:58:41 INFO  Started: Metals version 1.3.5 in folders '/Users/mrprotozoo/Documents/Memes/Auxiliar1-2024-1' for client Visual Studio Code 1.92.2.
+SLF4J(W): Class path contains multiple SLF4J providers.
+SLF4J(W): Found provider [scribe.slf4j.ScribeServiceProvider@3a052cfa]
+SLF4J(W): Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@33a8f0ea]
+SLF4J(W): See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J(I): Actual provider is of type [scribe.slf4j.ScribeServiceProvider@3a052cfa]
+2024.08.19 17:58:42 WARN  Flyway upgrade recommended: H2 2.3.230 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+ago. 19, 2024 5:58:42 P. M. org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFORMACIÓN: Unsupported notification method: $/setTrace
+2024.08.19 17:58:44 INFO  running '/Users/mrprotozoo/.sdkman/candidates/sbt/current/bin/sbt -Dbloop.export-jar-classifiers=sources bloopInstall'
+2024.08.19 17:58:45 ERROR [info] [launcher] getting org.scala-sbt sbt 1.9.9  (this may take some time)...
+2024.08.19 17:58:45 WARN  no build target for: /Users/mrprotozoo/Documents/Memes/Auxiliar1-2024-1/project/project/metals.sbt
+2024.08.19 17:58:45 WARN  no build target for: /Users/mrprotozoo/Documents/Memes/Auxiliar1-2024-1/project/metals.sbt
+2024.08.19 17:58:45 INFO  no build target found for /Users/mrprotozoo/Documents/Memes/Auxiliar1-2024-1/project/metals.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.19 17:58:46 INFO  no build target found for /Users/mrprotozoo/Documents/Memes/Auxiliar1-2024-1/project/project/metals.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.19 17:59:10 ERROR [info] [launcher] getting Scala 2.12.18 (for sbt)...
+2024.08.19 17:59:11 INFO  [info] welcome to sbt 1.9.9 (Amazon.com Inc. Java 17.0.12)
+2024.08.19 17:59:11 INFO  [info] loading settings for project auxiliar1-2024-1-build-build from metals.sbt ...
+2024.08.19 17:59:12 INFO  [info] loading project definition from /Users/mrprotozoo/Documents/Memes/Auxiliar1-2024-1/project/project
+2024.08.19 17:59:13 INFO  [info] loading settings for project auxiliar1-2024-1-build from metals.sbt ...
+2024.08.19 17:59:13 INFO  [info] loading project definition from /Users/mrprotozoo/Documents/Memes/Auxiliar1-2024-1/project
+2024.08.19 17:59:21 INFO  [success] Generated .bloop/auxiliar1-2024-1-build.json
+2024.08.19 17:59:21 INFO  [success] Total time: 8 s, completed 19 ago. 2024 17:59:21
+2024.08.19 17:59:21 INFO  [info] loading settings for project root from build.sbt ...
+2024.08.19 17:59:21 INFO  [info] set current project to Auxiliar 1 (in build file:/Users/mrprotozoo/Documents/Memes/Auxiliar1-2024-1/)
+2024.08.19 17:59:21 INFO  [success] Generated .bloop/root.json
+2024.08.19 17:59:21 INFO  [success] Generated .bloop/root-test.json
+2024.08.19 17:59:21 INFO  [success] Total time: 0 s, completed 19 ago. 2024 17:59:22
+2024.08.19 17:59:22 INFO  time: ran 'sbt bloopInstall' in 37s
+2024.08.19 17:59:22 INFO  Attempting to connect to the build server...
+2024.08.19 17:59:22 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mrprotozoo/Documents/Memes/Auxiliar1-2024-1/.metals/bsp.trace.json or /Users/mrprotozoo/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.08.19 17:59:22 INFO  Attempting to connect to the build server...
+2024.08.19 17:59:22 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mrprotozoo/Documents/Memes/Auxiliar1-2024-1/project/.metals/bsp.trace.json or /Users/mrprotozoo/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.08.19 17:59:30 INFO  no build target found for /Users/mrprotozoo/Documents/Memes/Auxiliar1-2024-1/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.19 17:59:36 INFO  time: Connected to build server in 13s
+2024.08.19 17:59:36 INFO  Connected to Build server: Bloop v1.6.0
+2024.08.19 17:59:36 INFO  running doctor check
+2024.08.19 17:59:36 INFO  java targets: auxiliar1-2024-1-build, root-test, root
+2024.08.19 17:59:42 WARN  Flyway upgrade recommended: H2 2.3.230 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.08.19 17:59:45 INFO  time: indexed workspace in 9.83s
+2024.08.19 17:59:45 INFO  compiling root (2 scala sources)
+2024.08.19 17:59:45 INFO  time: compiled root in 0.8s
+ago. 19, 2024 6:00:05 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 43
+ago. 19, 2024 6:00:13 P. M. org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFORMACIÓN: Unsupported notification method: $/setTrace
+2024.08.19 18:00:16 INFO  Deduplicating compilation of root from bsp client 'Metals 1.3.5' (since 53.249s)
+2024.08.19 18:00:16 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mrprotozoo/Documents/Memes/Auxiliar1-2024-1/.metals/dap-server.trace.json or /Users/mrprotozoo/Library/Caches/org.scalameta.metals/dap-server.trace.json
+2024.08.19 18:00:16 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mrprotozoo/Documents/Memes/Auxiliar1-2024-1/.metals/dap-client.trace.json or /Users/mrprotozoo/Library/Caches/org.scalameta.metals/dap-client.trace.json
+2024.08.19 18:00:16 INFO  Starting debug proxy for [Main]
+2024.08.19 18:00:17 INFO  Loaded expression compiler in 1 second
+2024.08.19 18:00:19 INFO  Loaded all sources and classes in 1 second
+2024.08.19 18:00:19 INFO  Initialized Scala 3 decoder in 0 milliseconds
+2024.08.19 18:00:19 INFO  Trying to attach to remote debuggee VM localhost:53046 .
+2024.08.19 18:00:19 INFO  Attaching to debuggee VM succeeded.
+2024.08.19 18:00:19 INFO  Canceling debug proxy for [Main]
+2024.08.19 18:00:19 INFO  Closing debug server tcp://0.0.0.0:53044
+2024.08.19 18:01:34 INFO  Shutting down server
+2024.08.19 18:01:34 INFO  shutting down Metals
+2024.08.19 18:01:34 INFO  Shut down connection with build server.
+2024.08.19 18:01:34 INFO  Shut down connection with build server.
+2024.08.19 18:01:34 INFO  Exiting server
+2024.08.19 18:01:36 INFO  Started: Metals version 1.3.5 in folders '/Users/mrprotozoo/Documents/Memes/Auxiliar1-2024-1' for client Visual Studio Code 1.92.2.
+SLF4J(W): Class path contains multiple SLF4J providers.
+SLF4J(W): Found provider [scribe.slf4j.ScribeServiceProvider@78887230]
+SLF4J(W): Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@7ad464a9]
+SLF4J(W): See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J(I): Actual provider is of type [scribe.slf4j.ScribeServiceProvider@78887230]
+2024.08.19 18:01:36 WARN  Flyway upgrade recommended: H2 2.3.230 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.08.19 18:01:37 INFO  Attempting to connect to the build server...
+ago. 19, 2024 6:01:37 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 1
+ago. 19, 2024 6:01:37 P. M. org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFORMACIÓN: Unsupported notification method: $/setTrace
+ago. 19, 2024 6:01:37 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 2
+2024.08.19 18:01:37 INFO  no build target found for /Users/mrprotozoo/Documents/Memes/Auxiliar1-2024-1/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.19 18:01:37 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mrprotozoo/Documents/Memes/Auxiliar1-2024-1/.metals/bsp.trace.json or /Users/mrprotozoo/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.08.19 18:01:37 INFO  Attempting to connect to the build server...
+2024.08.19 18:01:37 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mrprotozoo/Documents/Memes/Auxiliar1-2024-1/project/.metals/bsp.trace.json or /Users/mrprotozoo/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.08.19 18:01:37 INFO  time: Connected to build server in 0.76s
+2024.08.19 18:01:37 INFO  Connected to Build server: Bloop v1.6.0
+2024.08.19 18:01:37 INFO  running doctor check
+2024.08.19 18:01:37 INFO  java targets: auxiliar1-2024-1-build, root-test, root
+2024.08.19 18:01:39 WARN  Flyway upgrade recommended: H2 2.3.230 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.08.19 18:01:39 INFO  time: indexed workspace in 2.5s
+2024.08.19 18:04:10 INFO  Shutting down server
+2024.08.19 18:04:10 INFO  shutting down Metals
+2024.08.19 18:04:10 INFO  Shut down connection with build server.
+2024.08.19 18:04:10 INFO  Shut down connection with build server.
+2024.08.19 18:04:10 INFO  Exiting server
+2024.08.19 18:04:18 INFO  Started: Metals version 1.3.5 in folders '/Users/mrprotozoo/Documents/Memes/Auxiliar1-2024-1' for client Visual Studio Code 1.92.2.
+SLF4J(W): Class path contains multiple SLF4J providers.
+SLF4J(W): Found provider [scribe.slf4j.ScribeServiceProvider@59a19ce4]
+SLF4J(W): Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@27b2b1b1]
+SLF4J(W): See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J(I): Actual provider is of type [scribe.slf4j.ScribeServiceProvider@59a19ce4]
+2024.08.19 18:04:18 WARN  Flyway upgrade recommended: H2 2.3.230 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.08.19 18:04:19 INFO  Attempting to connect to the build server...
+2024.08.19 18:04:19 INFO  no build target found for /Users/mrprotozoo/Documents/Memes/Auxiliar1-2024-1/src/main/scala/example/HelloWorld.scala. Using presentation compiler with project's scala-library version: 3.3.3
+ago. 19, 2024 6:04:19 P. M. org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFORMACIÓN: Unsupported notification method: $/setTrace
+2024.08.19 18:04:19 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mrprotozoo/Documents/Memes/Auxiliar1-2024-1/.metals/bsp.trace.json or /Users/mrprotozoo/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.08.19 18:04:19 INFO  Attempting to connect to the build server...
+2024.08.19 18:04:19 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mrprotozoo/Documents/Memes/Auxiliar1-2024-1/project/.metals/bsp.trace.json or /Users/mrprotozoo/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.08.19 18:04:19 INFO  time: Connected to build server in 0.68s
+2024.08.19 18:04:19 INFO  Connected to Build server: Bloop v1.6.0
+2024.08.19 18:04:19 INFO  running doctor check
+2024.08.19 18:04:19 INFO  java targets: auxiliar1-2024-1-build, root-test, root
+2024.08.19 18:04:21 WARN  Flyway upgrade recommended: H2 2.3.230 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.08.19 18:04:21 INFO  time: indexed workspace in 2.25s
+ago. 19, 2024 6:06:37 P. M. scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFORMACIÓN: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+ago. 19, 2024 6:06:37 P. M. scala.meta.internal.pc.CompilerAccess handleError
+GRAVE: A severe compiler error occurred, full details of the error can be found in the error report /Users/mrprotozoo/Documents/Memes/Auxiliar1-2024-1/.metals/.reports/metals-full/2024-08-19/r_compiler-error_(root)_18-06-37-754.md
+ago. 19, 2024 6:06:49 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 228
+ago. 19, 2024 6:06:57 P. M. scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFORMACIÓN: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+ago. 19, 2024 6:06:57 P. M. scala.meta.internal.pc.CompilerAccess handleError
+GRAVE: A severe compiler error occurred, full details of the error can be found in the error report /Users/mrprotozoo/Documents/Memes/Auxiliar1-2024-1/.metals/.reports/metals-full/2024-08-19/r_compiler-error_(root)_18-06-57-920.md
+2024.08.19 18:07:21 INFO  compiling root (1 scala source)
+2024.08.19 18:07:21 INFO  time: compiled root in 0.54s
