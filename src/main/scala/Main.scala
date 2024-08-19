@@ -1,5 +1,8 @@
 object Main {
   def main(args: Array[String]): Unit = {
-    println("Hello world!")
+    aaa()
   }
+  def aaa(): Unit = {
+  println("nanibts")
+ }
 }
