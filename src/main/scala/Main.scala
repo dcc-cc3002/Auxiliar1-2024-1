@@ -1,5 +1,12 @@
 object Main {
   def main(args: Array[String]): Unit = {
-    println("Hello world!")
+    PrimeraAuxiliarMemera()
+    pautaAuxiliarMemera()
+  }
+  def PrimeraAuxiliarMemera(): Unit = {
+    println("Hola memeros")
+  }
+  def pautaAuxiliarMemera(): Unit = {
+    println("Chao memeros")
   }
 }
